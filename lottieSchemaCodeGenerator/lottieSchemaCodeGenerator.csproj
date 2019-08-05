@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="json\effects\angle.json" />
+    <None Remove="json\effects\checkBox.json" />
+    <None Remove="json\effects\color.json" />
+    <None Remove="json\effects\customValue.json" />
+    <None Remove="json\effects\dropDown.json" />
+    <None Remove="json\effects\fill.json" />
+    <None Remove="json\effects\group.json" />
+    <None Remove="json\effects\index.json" />
+    <None Remove="json\effects\layer.json" />
+    <None Remove="json\effects\noValue.json" />
+    <None Remove="json\effects\point.json" />
+    <None Remove="json\effects\proLevels.json" />
+    <None Remove="json\effects\slider.json" />
+    <None Remove="json\effects\stroke.json" />
+    <None Remove="json\effects\tint.json" />
+    <None Remove="json\effects\tritone.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="json\effects\angle.json" />
+    <Content Include="json\effects\checkBox.json" />
+    <Content Include="json\effects\color.json" />
+    <Content Include="json\effects\customValue.json" />
+    <Content Include="json\effects\dropDown.json" />
+    <Content Include="json\effects\fill.json" />
+    <Content Include="json\effects\group.json" />
+    <Content Include="json\effects\index.json" />
+    <Content Include="json\effects\layer.json" />
+    <Content Include="json\effects\noValue.json" />
+    <Content Include="json\effects\point.json" />
+    <Content Include="json\effects\proLevels.json" />
+    <Content Include="json\effects\slider.json" />
+    <Content Include="json\effects\stroke.json" />
+    <Content Include="json\effects\tint.json" />
+    <Content Include="json\effects\tritone.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NJsonSchema.CodeGeneration.CSharp" Version="10.0.21" />
+  </ItemGroup>
+
+</Project>

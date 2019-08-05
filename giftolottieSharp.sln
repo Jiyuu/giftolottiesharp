@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "giftolottieSharp", "giftolottieSharp\giftolottieSharp.csproj", "{7744C203-0B2B-4C6E-9BB9-93525E0AA125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lottieSchemaCodeGenerator", "lottieSchemaCodeGenerator\lottieSchemaCodeGenerator.csproj", "{BCAA0156-5CF6-44E5-91FC-6189D3637E60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7744C203-0B2B-4C6E-9BB9-93525E0AA125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7744C203-0B2B-4C6E-9BB9-93525E0AA125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7744C203-0B2B-4C6E-9BB9-93525E0AA125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7744C203-0B2B-4C6E-9BB9-93525E0AA125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAA0156-5CF6-44E5-91FC-6189D3637E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAA0156-5CF6-44E5-91FC-6189D3637E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAA0156-5CF6-44E5-91FC-6189D3637E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAA0156-5CF6-44E5-91FC-6189D3637E60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3DF62D7-2C6D-4F31-A667-18531A525197}
+	EndGlobalSection
+EndGlobal
